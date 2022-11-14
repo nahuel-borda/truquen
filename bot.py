@@ -1,7 +1,5 @@
 from subprocess import Popen, PIPE
-import time
 from truco import Partida
-import discord
 
 # Crear sala (1v1/2v2/3v3) 1v1
 
@@ -31,6 +29,7 @@ class SuperBot:
         self.match = ""
         self.e_reaction = ""
         self.rtable = {}
+        print('quetal')
 
 
     def handle_message(self, full, author):
